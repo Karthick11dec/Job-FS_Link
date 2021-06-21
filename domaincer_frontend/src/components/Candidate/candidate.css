@@ -1,0 +1,51 @@
+.cardclass{
+    width: 80%;
+}
+
+.padd{
+    padding: 10px 10px 10px 20px ;
+}
+
+.structure{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px 0px 10px 30px;
+}
+
+.background{
+    position: relative;
+    top: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px 15px 5px 10px ;
+}
+
+.flexify{
+    display: flex;
+    flex-direction: row;
+}
+
+.back{
+    background-color: rgb(131, 162, 255);
+}
+
+.sticky1{
+    position: sticky;
+    top: 15vh;
+    z-index: 2000;
+}
+
+.lining{
+    margin-top: 2vh;
+    border-top: 1px solid black;
+}
+
+.marginy{
+    margin-left: 5vw;
+}
+
+.gridify{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+}

@@ -1,0 +1,57 @@
+.rename{
+    margin: 2em;
+}
+
+.mid{
+    text-align: center;
+}
+
+.text{
+    color: rgb(0, 64, 255);
+    cursor: pointer;
+}
+
+.text:hover{
+    color: green;
+}
+
+.line{
+    text-decoration: none;
+    color: rgb(31, 31, 255);
+}
+
+.line:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    margin-left: 30vw;
+    top: 20px;
+    position: relative;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.square{
+    padding: 20px 20px 10px 20px;
+    border: 1px solid rgb(27, 27, 77);
+}
+
+.navbar{
+    height: 12vh;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    z-index: 2000;
+}

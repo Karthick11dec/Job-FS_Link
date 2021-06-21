@@ -1,0 +1,39 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin:5% 20% 5% 20%;
+    position: relative;
+}
+
+.boxing{
+    padding: 30px 30px 30px 30px;
+    border: 1px solid rgb(27, 27, 77);
+}
+
+.white{
+    background-color: white;
+    padding: 10px 0px;
+}
+
+.block{
+display:inline-flex;
+justify-content: space-evenly;
+}
+
+.fullblock {
+    display: block;
+    padding: 5px;
+    word-wrap: break-word;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr 3fr 3fr 3fr;
+    justify-content: center;
+}
+
+.lining{
+    border-top: 1px solid black;
+}
